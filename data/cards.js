@@ -232,8 +232,8 @@ const cards = [
     {
       word: 'dress',
       translation: 'платье',
-      image: 'img/dress.jpg',
-      audioSrc: 'audio/dress.mp3'
+      image: '../data/img/dress.jpg',
+      audioSrc: '../data/audio/dress.mp3'
     },
     {
       word: 'boot',
