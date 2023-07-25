@@ -44,16 +44,29 @@ function onCardClick (arr, param, elem, cardObj){
         }else{
             playedElem.incorrect ++
         }
-        const index = arr[param].findIndex(c => c.word === playedElem.word)
-        if (index !== -1 && index+1 < 8){
+        const indexInCards = arr[param].findIndex(c => c.word === playedElem.word)
+        const index = window.audioArray.findIndex(c => c === indexInCards)
+        if (index !== -1 && index < 7){
             playedElem = arr[param][window.audioArray[index+1]]
             new Audio(playedElem.audioSrc).play()
+        }else if(index >= 7){
+            alert('Well done!')
         }
     }else{
         elem.addEventListener("click", function(){
             new Audio(cardObj.audioSrc).play()
         })
     }
+}
+
+function congratulation(){
+    let popup = document.createElement('section')
+    popup.classList.add('congratulation')
+
+    let text = document.createElement('p')
+    text.classList.add('congr-text')
+    text.textContent = 'Congratulation'
+
 }
 
 function play(arr, param){
