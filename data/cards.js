@@ -11,49 +11,73 @@ const cards = [
       word: 'cry',
       translation: 'плакать',
       image: '../../data/img/cry.jpg',
-      audioSrc: '../data/audio/cry.mp3'
+      audioSrc: '../data/audio/cry.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'dance',
       translation: 'танцевать',
       image: '../data/img/dance.jpg',
-      audioSrc: '../data/audio/dance.mp3'
+      audioSrc: '../data/audio/dance.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'dive',
       translation: 'нырять',
       image: '../data/img/dive.jpg',
-      audioSrc: '../data/audio/dive.mp3'
+      audioSrc: '../data/audio/dive.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'draw',
       translation: 'рисовать',
       image: '../data/img/draw.jpg',
-      audioSrc: '../data/audio/draw.mp3'
+      audioSrc: '../data/audio/draw.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'fish',
       translation: 'ловить рыбу',
       image: '../data/img/fish.jpg',
-      audioSrc: '../data/audio/fish.mp3'
+      audioSrc: '../data/audio/fish.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'fly',
       translation: 'летать',
       image: '../data/img/fly.jpg',
-      audioSrc: '../data/audio/fly.mp3'
+      audioSrc: '../data/audio/fly.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'hug',
       translation: 'обнимать',
       image: '../data/img/hug.jpg',
-      audioSrc: '../data/audio/hug.mp3'
+      audioSrc: '../data/audio/hug.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'jump',
       translation: 'прыгать',
       image: '../data/img/jump.jpg',
-      audioSrc: '../data/audio/jump.mp3'
+      audioSrc: '../data/audio/jump.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     }
   ],
   //Action set B
@@ -62,7 +86,10 @@ const cards = [
       word: 'open',
       translation: 'открывать',
       image: '../data/img/open.jpg',
-      audioSrc: '../data/audio/open.mp3'
+      audioSrc: '../data/audio/open.mp3',
+      correct: 0,
+      incorrect: 0,
+      total: 0
     },
     {
       word: 'play',
